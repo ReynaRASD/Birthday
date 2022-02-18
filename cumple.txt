@@ -26,4 +26,15 @@ __________________###
 ___________________#
 
 
+👇
+Cuando vayas a hacer el commit, fuerza la fecha a la de tu nacimiento (u otra fecha que quieras destacar)
 
+git commit -m 'initial commit' --date 1984-12-08
+
+Crea un repositorio en tu cuenta de GitHub (yo le he llamado 'birthdate')
+
+Copia la URL remota del repositorio y añádesela a tu proyecto
+
+git remote add origin HTTP.git
+
+Súbelo! "git push -u origin main --force"
